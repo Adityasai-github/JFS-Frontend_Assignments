@@ -1,0 +1,8 @@
+table, th,td{
+    border: 2px solid green;
+    border-radius: 2px
+}
+    
+th{
+    background-color: green;
+}
