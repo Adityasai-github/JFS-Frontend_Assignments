@@ -1,0 +1,35 @@
+<html>    
+<head>    
+</head>     
+<body>    
+<script>     
+    var a = [35, 10, 31, 11, 26,1,2,3,4,5,6,7,2,4,5,6,7,8,9,2];    
+    function print() //function to print array elements  
+    {  
+    for(i = 0; i < 20; i++)     
+    {    
+        document.writeln(a[i]);    
+    }    
+    }  
+    document.write("Before sorting array elements are - " + "<br>");    
+     print();  
+      
+    for(i = 0; i < 20; i++)    
+    {    
+        for (j = 0; j < 20; j++)    
+        {    
+            if(a[i] < a[j])    
+            {    
+                temp = a[i];    
+                a[i]=a[j];    
+                a[j] = temp;     
+            }    
+        }    
+    }    
+    document.write("<br> After sorting array elements are - " + "<br>");    
+    print();  
+    </script>     
+    </body>    
+</html>  
+
+
