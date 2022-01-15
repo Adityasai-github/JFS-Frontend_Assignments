@@ -1,0 +1,21 @@
+h1{
+    color: purple;
+    background-color:springgreen;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: arial;
+    text-align: center;
+}
+p{
+    color:red;
+    text-align: right;
+    line-height: 33px;
+    letter-spacing: 3px;
+    column-count: 2;
+    column-gap: 70px;
+}
+ul{
+
+    border-bottom: 5px solid cornflowerblue;
+    border-left: 9px dashed chartreuse;
+}
